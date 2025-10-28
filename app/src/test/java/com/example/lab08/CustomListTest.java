@@ -30,7 +30,6 @@ public class CustomListTest {
         CustomList testCities = new CustomList();
 
         assertEquals(testCities.countCities(), 0);
-
         testCities.addCity(testCity);
         assertEquals(testCities.countCities(), 1);
     }
